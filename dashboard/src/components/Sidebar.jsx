@@ -1,4 +1,4 @@
-export default function Sidebar({ charts, activeSlug, search, onSearch, onSelect, meta, open }) {
+export default function Sidebar({ charts, activeSlug, search, onSearch, onSelect, meta, open, onLogout }) {
   const categories = [...new Set(charts.map((c) => c.category))];
   const q = search.toLowerCase();
 
@@ -59,6 +59,19 @@ export default function Sidebar({ charts, activeSlug, search, onSearch, onSelect
           );
         })}
       </nav>
+
+      <div className="sidebar-footer">
+        <div className="user-profile">
+          <div className="user-avatar">AY</div>
+          <div className="user-info">
+            <strong>Aakash Yadav</strong>
+            <span>Dalhousie University · Student Research</span>
+          </div>
+        </div>
+        <button type="button" className="logout-btn" onClick={onLogout}>
+          Log out
+        </button>
+      </div>
     </aside>
   );
 }

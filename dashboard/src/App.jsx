@@ -3,8 +3,10 @@ import Sidebar from './components/Sidebar';
 import StatsRow from './components/StatsRow';
 import OverviewGrid from './components/OverviewGrid';
 import ChartDetail from './components/ChartDetail';
+import LoginPage, { isAuthenticated, clearAuth } from './components/LoginPage';
 
 export default function App() {
+  const [authenticated, setAuthenticated] = useState(isAuthenticated);
   const [meta, setMeta] = useState({ totalPapers: 0, yearRange: '—', charts: [] });
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -13,6 +15,11 @@ export default function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   useEffect(() => {
+    if (!authenticated) {
+      setLoading(false);
+      return;
+    }
+
     fetch('/charts-data.json')
       .then((r) => {
         if (!r.ok) throw new Error('charts-data.json not found. Run: python make_graphs.py');
@@ -26,7 +33,7 @@ export default function App() {
         setError(e.message);
         setLoading(false);
       });
-  }, []);
+  }, [authenticated]);
 
   const charts = meta.charts || [];
   const activeChart = charts.find((c) => c.slug === activeSlug);
@@ -36,6 +43,19 @@ export default function App() {
     setSidebarOpen(false);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
+
+  const handleLogout = () => {
+    clearAuth();
+    setAuthenticated(false);
+    setActiveSlug(null);
+    setSearch('');
+    setMeta({ totalPapers: 0, yearRange: '—', charts: [] });
+    setLoading(false);
+  };
+
+  if (!authenticated) {
+    return <LoginPage onSuccess={() => setAuthenticated(true)} />;
+  }
 
   if (loading) {
     return (
@@ -66,6 +86,7 @@ export default function App() {
         onSelect={handleSelect}
         meta={meta}
         open={sidebarOpen}
+        onLogout={handleLogout}
       />
 
       <div className="main">
