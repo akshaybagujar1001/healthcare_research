@@ -17,3 +17,9 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
