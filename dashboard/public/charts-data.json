@@ -1,0 +1,1859 @@
+{
+  "totalPapers": 171,
+  "yearRange": "2018–2026",
+  "charts": [
+    {
+      "slug": "federated_learning",
+      "title": "Federated Learning Usage",
+      "category": "Technology Adoption",
+      "chartType": "Bar Chart",
+      "sourceColumn": "FL used? (Yes/No)",
+      "description": "Federated Learning (FL) adoption — trains models across devices without sharing raw patient data.",
+      "insights": [
+        "Highest category: \"No\" with 106 papers (62.0%).",
+        "Second: \"Yes\" — 61 papers (35.7%).",
+        "Total categories shown: 4.",
+        "Top 3 categories account for 99.4% of this chart's data."
+      ],
+      "data": [
+        {
+          "label": "No",
+          "count": 106,
+          "percent": 62.0
+        },
+        {
+          "label": "Yes",
+          "count": 61,
+          "percent": 35.7
+        },
+        {
+          "label": "Not reported",
+          "count": 3,
+          "percent": 1.8
+        },
+        {
+          "label": "Mentioned conceptually only",
+          "count": 1,
+          "percent": 0.6
+        }
+      ],
+      "totalCount": 171
+    },
+    {
+      "slug": "federated_learning_pie",
+      "title": "FL used (Pie)",
+      "category": "Technology Adoption",
+      "chartType": "Pie Chart",
+      "sourceColumn": "FL used? (Yes/No)",
+      "description": "Percentage view of FL usage — Yes, No, and not-reported responses across the review.",
+      "insights": [
+        "Highest category: \"No\" with 106 papers (62.0%).",
+        "Second: \"Yes\" — 61 papers (35.7%).",
+        "Total categories shown: 4.",
+        "Top 3 categories account for 99.4% of this chart's data."
+      ],
+      "data": [
+        {
+          "label": "No",
+          "count": 106,
+          "percent": 62.0
+        },
+        {
+          "label": "Yes",
+          "count": 61,
+          "percent": 35.7
+        },
+        {
+          "label": "Not reported",
+          "count": 3,
+          "percent": 1.8
+        },
+        {
+          "label": "Mentioned conceptually only",
+          "count": 1,
+          "percent": 0.6
+        }
+      ],
+      "totalCount": 171
+    },
+    {
+      "slug": "edge_computing",
+      "title": "Edge Computing used Usage",
+      "category": "Technology Adoption",
+      "chartType": "Bar Chart",
+      "sourceColumn": "Edge Computing used? (Yes/No)",
+      "description": "Edge computing processes data near the user instead of sending everything to the cloud.",
+      "insights": [
+        "Highest category: \"Yes\" with 148 papers (86.5%).",
+        "Second: \"Not reported\" — 12 papers (7.0%).",
+        "Total categories shown: 3.",
+        "Top 3 categories account for 100.0% of this chart's data."
+      ],
+      "data": [
+        {
+          "label": "Yes",
+          "count": 148,
+          "percent": 86.5
+        },
+        {
+          "label": "Not reported",
+          "count": 12,
+          "percent": 7.0
+        },
+        {
+          "label": "No",
+          "count": 11,
+          "percent": 6.4
+        }
+      ],
+      "totalCount": 171
+    },
+    {
+      "slug": "edge_computing_pie",
+      "title": "Edge Computing used (Pie)",
+      "category": "Technology Adoption",
+      "chartType": "Pie Chart",
+      "sourceColumn": "Edge Computing used? (Yes/No)",
+      "description": "Proportional breakdown of edge computing adoption in the literature.",
+      "insights": [
+        "Highest category: \"Yes\" with 148 papers (86.5%).",
+        "Second: \"Not reported\" — 12 papers (7.0%).",
+        "Total categories shown: 3.",
+        "Top 3 categories account for 100.0% of this chart's data."
+      ],
+      "data": [
+        {
+          "label": "Yes",
+          "count": 148,
+          "percent": 86.5
+        },
+        {
+          "label": "Not reported",
+          "count": 12,
+          "percent": 7.0
+        },
+        {
+          "label": "No",
+          "count": 11,
+          "percent": 6.4
+        }
+      ],
+      "totalCount": 171
+    },
+    {
+      "slug": "cloud_computing",
+      "title": "On Cloud Usage",
+      "category": "Technology Adoption",
+      "chartType": "Bar Chart",
+      "sourceColumn": "On Cloud? (Yes/No)",
+      "description": "Cloud-based training or inference usage across reviewed studies.",
+      "insights": [
+        "Highest category: \"Yes\" with 90 papers (52.6%).",
+        "Second: \"No\" — 58 papers (33.9%).",
+        "Total categories shown: 3.",
+        "Top 3 categories account for 100.0% of this chart's data."
+      ],
+      "data": [
+        {
+          "label": "Yes",
+          "count": 90,
+          "percent": 52.6
+        },
+        {
+          "label": "No",
+          "count": 58,
+          "percent": 33.9
+        },
+        {
+          "label": "Not reported",
+          "count": 23,
+          "percent": 13.5
+        }
+      ],
+      "totalCount": 171
+    },
+    {
+      "slug": "cloud_computing_pie",
+      "title": "On Cloud (Pie)",
+      "category": "Technology Adoption",
+      "chartType": "Pie Chart",
+      "sourceColumn": "On Cloud? (Yes/No)",
+      "description": "Share of papers using cloud infrastructure vs local/edge-only approaches.",
+      "insights": [
+        "Highest category: \"Yes\" with 90 papers (52.6%).",
+        "Second: \"No\" — 58 papers (33.9%).",
+        "Total categories shown: 3.",
+        "Top 3 categories account for 100.0% of this chart's data."
+      ],
+      "data": [
+        {
+          "label": "Yes",
+          "count": 90,
+          "percent": 52.6
+        },
+        {
+          "label": "No",
+          "count": 58,
+          "percent": 33.9
+        },
+        {
+          "label": "Not reported",
+          "count": 23,
+          "percent": 13.5
+        }
+      ],
+      "totalCount": 171
+    },
+    {
+      "slug": "publications_by_year",
+      "title": "Publications by Year",
+      "category": "Overview",
+      "chartType": "Bar Chart",
+      "sourceColumn": "Year",
+      "description": "Timeline of reviewed publications from 2018 to 2026. Shows research momentum and recent growth in your review topic.",
+      "insights": [
+        "Highest category: \"2018\" with 2 papers (1.2%).",
+        "Second: \"2019\" — 9 papers (5.3%).",
+        "Total categories shown: 9.",
+        "Top 3 categories account for 9.5% of this chart's data."
+      ],
+      "data": [
+        {
+          "label": "2018",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "label": "2019",
+          "count": 9,
+          "percent": 5.3
+        },
+        {
+          "label": "2020",
+          "count": 5,
+          "percent": 3.0
+        },
+        {
+          "label": "2021",
+          "count": 10,
+          "percent": 5.9
+        },
+        {
+          "label": "2022",
+          "count": 22,
+          "percent": 13.0
+        },
+        {
+          "label": "2023",
+          "count": 21,
+          "percent": 12.4
+        },
+        {
+          "label": "2024",
+          "count": 28,
+          "percent": 16.6
+        },
+        {
+          "label": "2025",
+          "count": 48,
+          "percent": 28.4
+        },
+        {
+          "label": "2026",
+          "count": 24,
+          "percent": 14.2
+        }
+      ],
+      "totalCount": 169
+    },
+    {
+      "slug": "domain_top15",
+      "title": "Research Domain (Top 15)",
+      "category": "Research Focus",
+      "chartType": "Horizontal Bar",
+      "sourceColumn": "DOMAIN",
+      "description": "Top 15 research domains. Healthcare and smart health monitoring dominate the reviewed literature.",
+      "insights": [
+        "Highest category: \"Healthcare\" with 98 papers (79.0%).",
+        "Second: \"Healthcare / Sports\" — 3 papers (2.4%).",
+        "Total categories shown: 15.",
+        "Top 3 categories account for 83.9% of this chart's data."
+      ],
+      "data": [
+        {
+          "label": "Healthcare",
+          "count": 98,
+          "percent": 79.0
+        },
+        {
+          "label": "Healthcare / Sports",
+          "count": 3,
+          "percent": 2.4
+        },
+        {
+          "label": "Smart healthcare",
+          "count": 3,
+          "percent": 2.4
+        },
+        {
+          "label": "Respiratory Health Monitoring",
+          "count": 2,
+          "percent": 1.6
+        },
+        {
+          "label": "Wearable Health Devices (WHD)",
+          "count": 2,
+          "percent": 1.6
+        },
+        {
+          "label": "Non-Invasive Continuous Blood Glucose Monitoring",
+          "count": 2,
+          "percent": 1.6
+        },
+        {
+          "label": "Mental health monitoring",
+          "count": 2,
+          "percent": 1.6
+        },
+        {
+          "label": "In-bed behavior monitoring",
+          "count": 2,
+          "percent": 1.6
+        },
+        {
+          "label": "Smart healthcare monitoring",
+          "count": 2,
+          "percent": 1.6
+        },
+        {
+          "label": "Mental health diagnostics",
+          "count": 2,
+          "percent": 1.6
+        },
+        {
+          "label": "Healthcare/Sports",
+          "count": 2,
+          "percent": 1.6
+        },
+        {
+          "label": "Remote health monitoring; Electrocardiogram (ECG) signal monitoring (cardiac monitoring)\nHealth Condition: Not disease-specific; focuses broadly on healthcare data systems, privacy, and interoperability.",
+          "count": 1,
+          "percent": 0.8
+        },
+        {
+          "label": "Chronic disease management",
+          "count": 1,
+          "percent": 0.8
+        },
+        {
+          "label": "Health monitoring / human activity recognition / wearable IoT",
+          "count": 1,
+          "percent": 0.8
+        },
+        {
+          "label": "Healthcare / Smart City",
+          "count": 1,
+          "percent": 0.8
+        }
+      ],
+      "totalCount": 124
+    },
+    {
+      "slug": "subdomains_top15",
+      "title": "Sub-Domains (Top 15)",
+      "category": "Research Focus",
+      "chartType": "Horizontal Bar",
+      "sourceColumn": "SUB-DOMAINS",
+      "description": "Fine-grained sub-domains within the broader research areas covered by the papers.",
+      "insights": [
+        "Highest category: \"Fall Detection\" with 3 papers (12.0%).",
+        "Second: \"Neurological disorders\" — 2 papers (8.0%).",
+        "Total categories shown: 15.",
+        "Top 3 categories account for 28.0% of this chart's data."
+      ],
+      "data": [
+        {
+          "label": "Fall Detection",
+          "count": 3,
+          "percent": 12.0
+        },
+        {
+          "label": "Neurological disorders",
+          "count": 2,
+          "percent": 8.0
+        },
+        {
+          "label": "Pose estimation; Posture classification",
+          "count": 2,
+          "percent": 8.0
+        },
+        {
+          "label": "Cardiovascular disease detection / Arrhythmia",
+          "count": 2,
+          "percent": 8.0
+        },
+        {
+          "label": "Arrhythmia Detection; ECG Analysis",
+          "count": 2,
+          "percent": 8.0
+        },
+        {
+          "label": "Loneliness Detection; Mental Health",
+          "count": 2,
+          "percent": 8.0
+        },
+        {
+          "label": "Symptom prediction (depression; anxiety; psychosis; mania)",
+          "count": 2,
+          "percent": 8.0
+        },
+        {
+          "label": "Disease management; predictive diagnosis; ambient-assisted living",
+          "count": 2,
+          "percent": 8.0
+        },
+        {
+          "label": "Cardiovascular monitoring; prognostics and health management (PHM); telemedicine",
+          "count": 2,
+          "percent": 8.0
+        },
+        {
+          "label": "Type-2 diabetes detection, fog computing",
+          "count": 1,
+          "percent": 4.0
+        },
+        {
+          "label": "Fall detection and Activity Recognition",
+          "count": 1,
+          "percent": 4.0
+        },
+        {
+          "label": "ECG Signal Reconstruction and Remote Monitoring .",
+          "count": 1,
+          "percent": 4.0
+        },
+        {
+          "label": "Human Activity Recognition (HAR), Edge computing .",
+          "count": 1,
+          "percent": 4.0
+        },
+        {
+          "label": "ECG monitoring and Arrhythmia detection 31, 32.",
+          "count": 1,
+          "percent": 4.0
+        },
+        {
+          "label": "Stress detection and TinyML .",
+          "count": 1,
+          "percent": 4.0
+        }
+      ],
+      "totalCount": 25
+    },
+    {
+      "slug": "ai_techniques_top15",
+      "title": "AI Techniques (Top 15)",
+      "category": "AI & Models",
+      "chartType": "Horizontal Bar",
+      "sourceColumn": "Ai techniques",
+      "description": "Most common AI/ML methods used — deep learning, federated setups, classical ML, NLP, etc.",
+      "insights": [
+        "Highest category: \"Machine Learning; Edge Computing\" with 5 papers (13.2%).",
+        "Second: \"Edge Computing\" — 4 papers (10.5%).",
+        "Total categories shown: 15.",
+        "Top 3 categories account for 34.2% of this chart's data."
+      ],
+      "data": [
+        {
+          "label": "Machine Learning; Edge Computing",
+          "count": 5,
+          "percent": 13.2
+        },
+        {
+          "label": "Edge Computing",
+          "count": 4,
+          "percent": 10.5
+        },
+        {
+          "label": "Federated Learning; Deep Learning",
+          "count": 4,
+          "percent": 10.5
+        },
+        {
+          "label": "Deep Learning; Edge Computing",
+          "count": 3,
+          "percent": 7.9
+        },
+        {
+          "label": "Federated Learning",
+          "count": 3,
+          "percent": 7.9
+        },
+        {
+          "label": "1D convolutional networks; Gated Recurrent Units (GRU); Multitask learning (MTL)",
+          "count": 2,
+          "percent": 5.3
+        },
+        {
+          "label": "Deep Learning",
+          "count": 2,
+          "percent": 5.3
+        },
+        {
+          "label": "Stacked hourglass networks; HoG-autoencoder; Pose-based posture classification",
+          "count": 2,
+          "percent": 5.3
+        },
+        {
+          "label": "Artificial Intelligence; Edge Computing",
+          "count": 2,
+          "percent": 5.3
+        },
+        {
+          "label": "Deep Learning / TinyML",
+          "count": 2,
+          "percent": 5.3
+        },
+        {
+          "label": "Statistical feature extraction; Feature selection",
+          "count": 2,
+          "percent": 5.3
+        },
+        {
+          "label": "Multi-task learning; Federated learning; Reinforcement learning",
+          "count": 2,
+          "percent": 5.3
+        },
+        {
+          "label": "Deep Learning; Reinforcement Learning; Federated Learning",
+          "count": 2,
+          "percent": 5.3
+        },
+        {
+          "label": "Deep Learning; Hardware Acceleration",
+          "count": 2,
+          "percent": 5.3
+        },
+        {
+          "label": "TinyML, Xgboost, random forest, KNN,decision tree, LightGBM, logitstic regression",
+          "count": 1,
+          "percent": 2.6
+        }
+      ],
+      "totalCount": 38
+    },
+    {
+      "slug": "publication_type",
+      "title": "Publication Type",
+      "category": "AI & Models",
+      "chartType": "Horizontal Bar",
+      "sourceColumn": "Type of publication",
+      "description": "Where findings were published — journals, conferences, workshops, preprints, or books.",
+      "insights": [
+        "Highest category: \"Journal article\" with 51 papers (30.0%).",
+        "Second: \"Journal Article\" — 31 papers (18.2%).",
+        "Total categories shown: 28.",
+        "Top 3 categories account for 62.9% of this chart's data."
+      ],
+      "data": [
+        {
+          "label": "Journal article",
+          "count": 51,
+          "percent": 30.0
+        },
+        {
+          "label": "Journal Article",
+          "count": 31,
+          "percent": 18.2
+        },
+        {
+          "label": "Conference proceeding",
+          "count": 25,
+          "percent": 14.7
+        },
+        {
+          "label": "Journal",
+          "count": 12,
+          "percent": 7.1
+        },
+        {
+          "label": "Conference / Journal",
+          "count": 7,
+          "percent": 4.1
+        },
+        {
+          "label": "Conference Proceedings",
+          "count": 6,
+          "percent": 3.5
+        },
+        {
+          "label": "IEEE Publication",
+          "count": 4,
+          "percent": 2.4
+        },
+        {
+          "label": "IEEE Conference",
+          "count": 4,
+          "percent": 2.4
+        },
+        {
+          "label": "journal",
+          "count": 3,
+          "percent": 1.8
+        },
+        {
+          "label": "Book chapter/Conference",
+          "count": 3,
+          "percent": 1.8
+        },
+        {
+          "label": "Conference Paper",
+          "count": 3,
+          "percent": 1.8
+        },
+        {
+          "label": "article",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "label": "Journal article/Conference",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "label": "conference",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "label": "Conference/Journal",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "label": "Conference (IEEE EMBC)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Research article",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Conference / Workshop Paper (AIxAS 2023)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Journal (IJACSA)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Journal article/ArXiv",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "IEEE Journal",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Not reported",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "IEEE Access / JOIV",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "JMIR Diabetes",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Book Chapter / Conference",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "ACM Trans. Embedd. Comput. Syst.",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "PeerJ Computer Science",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "DIGITAL HEALTH",
+          "count": 1,
+          "percent": 0.6
+        }
+      ],
+      "totalCount": 170
+    },
+    {
+      "slug": "model_types_top12",
+      "title": "Model Types (Top 12)",
+      "category": "AI & Models",
+      "chartType": "Horizontal Bar",
+      "sourceColumn": "Type of model used",
+      "description": "Specific model architectures and frameworks referenced in the reviewed papers.",
+      "insights": [
+        "Highest category: \"Deep learning\" with 14 papers (31.8%).",
+        "Second: \"Not reported\" — 5 papers (11.4%).",
+        "Total categories shown: 12.",
+        "Top 3 categories account for 54.5% of this chart's data."
+      ],
+      "data": [
+        {
+          "label": "Deep learning",
+          "count": 14,
+          "percent": 31.8
+        },
+        {
+          "label": "Not reported",
+          "count": 5,
+          "percent": 11.4
+        },
+        {
+          "label": "Deep Learning",
+          "count": 5,
+          "percent": 11.4
+        },
+        {
+          "label": "Machine learning algorithms",
+          "count": 4,
+          "percent": 9.1
+        },
+        {
+          "label": "Machine Learning",
+          "count": 3,
+          "percent": 6.8
+        },
+        {
+          "label": "Deep Learning models",
+          "count": 2,
+          "percent": 4.5
+        },
+        {
+          "label": "Deep Neural Network (DNN)",
+          "count": 2,
+          "percent": 4.5
+        },
+        {
+          "label": "Convolutional Neural Network (CNN)",
+          "count": 2,
+          "percent": 4.5
+        },
+        {
+          "label": "Not Specified",
+          "count": 2,
+          "percent": 4.5
+        },
+        {
+          "label": "Deep learning and Reinforcement Learning",
+          "count": 2,
+          "percent": 4.5
+        },
+        {
+          "label": "Multimodal fusion model",
+          "count": 2,
+          "percent": 4.5
+        },
+        {
+          "label": "Federated Transfer Learning (FTL)",
+          "count": 1,
+          "percent": 2.3
+        }
+      ],
+      "totalCount": 44
+    },
+    {
+      "slug": "lifestyle_behaviours_top12",
+      "title": "Lifestyle Behaviours (Top 12)",
+      "category": "Research Focus",
+      "chartType": "Horizontal Bar",
+      "sourceColumn": "LIFESTYLE BEHAVIOURS",
+      "description": "Lifestyle behaviours under study — sleep, physical activity, nutrition, mental health, etc.",
+      "insights": [
+        "Highest category: \"Not reported\" with 59 papers (62.1%).",
+        "Second: \"Not Specified\" — 15 papers (15.8%).",
+        "Total categories shown: 12.",
+        "Top 3 categories account for 84.2% of this chart's data."
+      ],
+      "data": [
+        {
+          "label": "Not reported",
+          "count": 59,
+          "percent": 62.1
+        },
+        {
+          "label": "Not Specified",
+          "count": 15,
+          "percent": 15.8
+        },
+        {
+          "label": "Physical activity",
+          "count": 6,
+          "percent": 6.3
+        },
+        {
+          "label": "Sleep",
+          "count": 3,
+          "percent": 3.2
+        },
+        {
+          "label": "Not mentioned in the sources.",
+          "count": 3,
+          "percent": 3.2
+        },
+        {
+          "label": "Sleep; steps; distance moved; location patterns",
+          "count": 2,
+          "percent": 2.1
+        },
+        {
+          "label": "Sleep posture / in-bed behavior",
+          "count": 2,
+          "percent": 2.1
+        },
+        {
+          "label": "Sleep,Physical activity (mentioned contextually)",
+          "count": 1,
+          "percent": 1.1
+        },
+        {
+          "label": "Chronic disease risk (indirect),Cardiovascular health",
+          "count": 1,
+          "percent": 1.1
+        },
+        {
+          "label": "Physical activity / human activity recognition: walk, study, sleep, walk upstairs, walk downstairs, sit, stand, lay",
+          "count": 1,
+          "percent": 1.1
+        },
+        {
+          "label": "Not directly lifestyle-focused \nIndirect: physiological monitoring (heart rate, respiration, SpO2)",
+          "count": 1,
+          "percent": 1.1
+        },
+        {
+          "label": "Physical activity\nDiet\nGlucose monitoring\nLifestyle management",
+          "count": 1,
+          "percent": 1.1
+        }
+      ],
+      "totalCount": 95
+    },
+    {
+      "slug": "data_type",
+      "title": "Data Type (Physiological vs Behavioral)",
+      "category": "Research Focus",
+      "chartType": "Horizontal Bar",
+      "sourceColumn": "Physiological data or Behavioral",
+      "description": "Split between physiological sensing (ECG, glucose, vitals) and behavioural data (activity, apps, surveys).",
+      "insights": [
+        "Highest category: \"Physiological\" with 81 papers (47.9%).",
+        "Second: \"Behavioral\" — 34 papers (20.1%).",
+        "Total categories shown: 19.",
+        "Top 3 categories account for 79.9% of this chart's data."
+      ],
+      "data": [
+        {
+          "label": "Physiological",
+          "count": 81,
+          "percent": 47.9
+        },
+        {
+          "label": "Behavioral",
+          "count": 34,
+          "percent": 20.1
+        },
+        {
+          "label": "Physiological and Behavioral",
+          "count": 20,
+          "percent": 11.8
+        },
+        {
+          "label": "Both",
+          "count": 17,
+          "percent": 10.1
+        },
+        {
+          "label": "Behavioral and Physiological",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "label": "Physiological data (ECG cardiac signals)",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "label": "Behavioral (movement/activity signals)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "physiological data(EDA,HR,Body temp) + motion based(3-axis accelerometer); n o behavioral",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "physiological data",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Both physiological (respiratory, SpO₂, heart rate) and behavioral (activity/posture recognition)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Behavioral data (human activity signals derived from accelerometer measurements)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Physiological: PPG-based heart rate.\nBehavioral: human activity signals / movement.",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Blood pressure\nOxygen saturation\nActivity monitoring\nSleep tracking",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Physiological:\n\nECG\nHeart-related signals",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Physiological (clinical/health records)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Physiological data: Yes (PPG → heart rate, respiration, SpO2)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Both:\n\nPhysiological (glucose, vitals)\nBehavioral (lifestyle patterns)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Physiological; Behavioral",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Not Specified",
+          "count": 1,
+          "percent": 0.6
+        }
+      ],
+      "totalCount": 169
+    },
+    {
+      "slug": "inference_location",
+      "title": "Inference Location",
+      "category": "Infrastructure",
+      "chartType": "Horizontal Bar",
+      "sourceColumn": "Inference location (on-device/Edge/cloud)",
+      "description": "Where real-time predictions run — on wearable/device, edge server, or cloud. Critical for privacy and latency.",
+      "insights": [
+        "Highest category: \"Edge\" with 62 papers (36.5%).",
+        "Second: \"On-device\" — 31 papers (18.2%).",
+        "Total categories shown: 41.",
+        "Top 3 categories account for 60.6% of this chart's data."
+      ],
+      "data": [
+        {
+          "label": "Edge",
+          "count": 62,
+          "percent": 36.5
+        },
+        {
+          "label": "On-device",
+          "count": 31,
+          "percent": 18.2
+        },
+        {
+          "label": "on-device/Edge",
+          "count": 10,
+          "percent": 5.9
+        },
+        {
+          "label": "On-device / Edge",
+          "count": 9,
+          "percent": 5.3
+        },
+        {
+          "label": "Edge/Cloud",
+          "count": 6,
+          "percent": 3.5
+        },
+        {
+          "label": "Not Specified",
+          "count": 5,
+          "percent": 2.9
+        },
+        {
+          "label": "Cloud",
+          "count": 5,
+          "percent": 2.9
+        },
+        {
+          "label": "Central",
+          "count": 4,
+          "percent": 2.4
+        },
+        {
+          "label": "Edge / Cloud",
+          "count": 3,
+          "percent": 1.8
+        },
+        {
+          "label": "On-device/Edge",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "label": "Edge/On-device",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "label": "Edge / Device",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "label": "Edge (IoT devices)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Designed for on-device / edge deployment (low-power embedded platforms such as MEMS-based systems)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Edge device (ARM big.LITTLE™ heterogeneous multicore IoT gateway – Odroid XU4)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "On-device (Edge inference on Raspberry Pi RP2040)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Fog layer + Cloud architecture",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Edge device (Raspberry Pi 3; Raspberry Pi 4; NVIDIA Jetson Nano)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "No clearly mentioned",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Data streamed via 5G to Multi-Edge Computing (MEC) server for storage and visualization",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Edge server performs classification",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Edge device (wearables / smartphone",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Edge + distributed agents",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Local models on devices",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "edge + cloud hybrid",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Central / Federated",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Not reported",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Cloud/Fog",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Edge / Cluster",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "On-device / client-side model inference implied for HAR devices.",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Edge + Cloud",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Edge/Fog",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Cloud / Edge",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "on-device/local",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "cloud",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Edge Device",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Local / Web",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Mobile device",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Edge and Cloud",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Cloud / Distributed",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Cloud (Hybrid)",
+          "count": 1,
+          "percent": 0.6
+        }
+      ],
+      "totalCount": 170
+    },
+    {
+      "slug": "training_location",
+      "title": "Training Location",
+      "category": "Infrastructure",
+      "chartType": "Horizontal Bar",
+      "sourceColumn": "Training location(central or federated)",
+      "description": "Whether models are trained centrally on a server or via federated/distributed training.",
+      "insights": [
+        "Highest category: \"Central\" with 56 papers (32.9%).",
+        "Second: \"Federated\" — 51 papers (30.0%).",
+        "Total categories shown: 20.",
+        "Top 3 categories account for 77.6% of this chart's data."
+      ],
+      "data": [
+        {
+          "label": "Central",
+          "count": 56,
+          "percent": 32.9
+        },
+        {
+          "label": "Federated",
+          "count": 51,
+          "percent": 30.0
+        },
+        {
+          "label": "Not reported",
+          "count": 25,
+          "percent": 14.7
+        },
+        {
+          "label": "central",
+          "count": 11,
+          "percent": 6.5
+        },
+        {
+          "label": "federated",
+          "count": 6,
+          "percent": 3.5
+        },
+        {
+          "label": "Not Specified",
+          "count": 4,
+          "percent": 2.4
+        },
+        {
+          "label": "Cloud",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "label": "Federated (distributed across devices)",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "label": "Central / Cloud",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "label": "Centralized training (TensorFlow implementation; no federated training reported)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Centralized (trained using Google Colab with T4 GPU; .h5 model deployed to edge device)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Not applicable (no training process described; reconstruction algorithms implemented locally)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "cloud",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Centralized (not federated)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Distributed (clients + server)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Federated (distributed across institutions)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Centralized training of CNN using MIT-BIH datasets",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Centralized (no federated learning)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Centralized (training phase with optimization)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Centralized",
+          "count": 1,
+          "percent": 0.6
+        }
+      ],
+      "totalCount": 170
+    },
+    {
+      "slug": "sensing_technologies_top12",
+      "title": "Sensing Technologies (Top 12)",
+      "category": "Infrastructure",
+      "chartType": "Horizontal Bar",
+      "sourceColumn": "Sensing Technologies",
+      "description": "Hardware and sensors used — wearables, smartphones, IoT devices, medical-grade monitors.",
+      "insights": [
+        "Highest category: \"Not reported\" with 7 papers (21.9%).",
+        "Second: \"Wearable sensors\" — 5 papers (15.6%).",
+        "Total categories shown: 12.",
+        "Top 3 categories account for 46.9% of this chart's data."
+      ],
+      "data": [
+        {
+          "label": "Not reported",
+          "count": 7,
+          "percent": 21.9
+        },
+        {
+          "label": "Wearable sensors",
+          "count": 5,
+          "percent": 15.6
+        },
+        {
+          "label": "AD8232 ECG sensor",
+          "count": 3,
+          "percent": 9.4
+        },
+        {
+          "label": "Camera",
+          "count": 2,
+          "percent": 6.2
+        },
+        {
+          "label": "Wrist-worn device URBAN HR (Partron Co; Ltd)",
+          "count": 2,
+          "percent": 6.2
+        },
+        {
+          "label": "Wearable Devices",
+          "count": 2,
+          "percent": 6.2
+        },
+        {
+          "label": "Smartphones",
+          "count": 2,
+          "percent": 6.2
+        },
+        {
+          "label": "Compact; chest-worn battery-powered ECG device",
+          "count": 2,
+          "percent": 6.2
+        },
+        {
+          "label": "ECG (AD8232); SpO2/HR (MAX30102); temperature (TMP117); accelerometers; PPG",
+          "count": 2,
+          "percent": 6.2
+        },
+        {
+          "label": "Inertial Sensors; Pulse Oximeter Sensor; EEG sensor; Blood Pressure Sensor",
+          "count": 2,
+          "percent": 6.2
+        },
+        {
+          "label": "Thermal imaging camera (FLIR One attached to Android phone)",
+          "count": 2,
+          "percent": 6.2
+        },
+        {
+          "label": "PPG sensor (Fitbit Charge 3)\nBCG sensor (comparison baseline)",
+          "count": 1,
+          "percent": 3.1
+        }
+      ],
+      "totalCount": 32
+    },
+    {
+      "slug": "user_involvement",
+      "title": "User Involvement",
+      "category": "Research Focus",
+      "chartType": "Horizontal Bar",
+      "sourceColumn": "User Involvement",
+      "description": "How participants engage with systems — passive monitoring, feedback loops, co-design, or clinical involvement.",
+      "insights": [
+        "Highest category: \"Not reported\" with 62 papers (38.0%).",
+        "Second: \"Not Specified\" — 15 papers (9.2%).",
+        "Total categories shown: 85.",
+        "Top 3 categories account for 48.5% of this chart's data."
+      ],
+      "data": [
+        {
+          "label": "Not reported",
+          "count": 62,
+          "percent": 38.0
+        },
+        {
+          "label": "Not Specified",
+          "count": 15,
+          "percent": 9.2
+        },
+        {
+          "label": "Participants wore devices continuously during admission",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "label": "1 subject for real field test",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "label": "10 volunteers contributed ~10 min of biosignal data",
+          "count": 2,
+          "percent": 1.2
+        },
+        {
+          "label": "Passive monitoring of elderly users",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Yes. Volunteers wore Mi Band 4 and carried Raspberry Pi during data collection for HARB.",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Implied (patients using mobile + wearables)\nNo experimental user study described",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Yes (data collection + annotation by experts)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Wearing the smart boot; answering TAM questions",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Wearing a smartphone on the waist",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Waving hand",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Performing an incremental test to exhaustion on a cycle ergometer",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Wearing multiple wearables during free-living activities",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Performing physical exercises outdoors wearing smart watches",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Using the app, interacting with chatbot",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Subjected to cognitive load and emotional stimuli",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Yes (data collected via IoT/wearables)",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Yes",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Users wear devices and generate data",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Wear band for 48+ hours, perform 4+ manual pulse oximetry measurements daily, fill SUS questionnaire",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Wearing sensors on different parts of the body",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Wearing customized device; Using smartphones/tablets",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Volunteers providing VGI data (Crowdsourced), using app",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Performing physical activities and daily chores",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Wearing smart devices; Isolation",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Wearing a smartwatch and carrying a smartphone",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Testing subjects wearing the device",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Participants performing 3 activities in the detecting area",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Continuous wearing of IoT-enabled devices",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Wearing IoT devices",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Wearing the mask",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "1-month sessions wearing sensors and interacting with app",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Patients performed various motor activities",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Performing daily activities and simulated falls",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Simulating active/inactive activities",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Standing on a weight-fat scale",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Wearing sensors during disaster rescue operations",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Catheterized patients",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Carrying smartphones",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Passive sensing",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Wearing a wrist device",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Bruce protocol running to exhaustion",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Performing clinical tests while wearing IMUs",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Continuous wearing of sensors",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Wearing graphene sensors",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Wearing the device",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Wearing devices",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Wearing the VersaSens device",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Performing pre-defined ADLs and fall scenarios",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Carrying smartphones; answering weekly surveys",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Strict supervision of health professional",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Performing physical exercises",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Subjects continued normal activities but wore tape recorders",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Volunteers performed simulated activities and falls",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Normal living",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Running app in background for 2 weeks",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Seated in a relaxed posture; facing the table",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Simulated falls and controlled activities",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Performed various daily activities for about 2 hours",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Subjects in sitting position with eyes closed",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Recorded for several hours",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Subjects wearing sensors",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Subjects performing natural activities",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Participants watching music videos",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Subjects performing physical activities",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Patients wearing IoMT sensors",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Volunteers performing scripted activities and simulated falls; providing feedback via UI",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Subjects performed tidal breathing; deep inhalation; and maximum exhalation; tested in sitting and walking states",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Volunteers wearing devices",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Participants providing self-reported information on states",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Human exercising at 7 m",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Participants completed predetermined activities",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Continuous monitoring for 36 months",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Wearing iLog glasses",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Participants performing typical daily activities",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Volunteers wearing fitness bands performing target activities",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Interactive dashboard and AI chatbot",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Dashboard representation",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "User queries Chatbot, inputs height & weight",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Mobile app usage",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Shares location/feedback via Dashboard",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Passive monitoring",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Interpretable alerts to enhance patient engagement",
+          "count": 1,
+          "percent": 0.6
+        },
+        {
+          "label": "Real-time visualization",
+          "count": 1,
+          "percent": 0.6
+        }
+      ],
+      "totalCount": 163
+    },
+    {
+      "slug": "tech_adoption_summary",
+      "title": "Technology Adoption (Yes counts)",
+      "category": "Overview",
+      "chartType": "Bar Chart",
+      "sourceColumn": "FL / Edge / Cloud columns",
+      "description": "Combined comparison of three key infrastructure choices across all papers. Useful for summarising adoption in your thesis or report.",
+      "insights": [
+        "Highest category: \"Federated Learning\" with 61 papers (20.4%).",
+        "Second: \"Edge Computing\" — 148 papers (49.5%).",
+        "Total categories shown: 3.",
+        "Top 3 categories account for 100.0% of this chart's data."
+      ],
+      "data": [
+        {
+          "label": "Federated Learning",
+          "count": 61,
+          "percent": 20.4
+        },
+        {
+          "label": "Edge Computing",
+          "count": 148,
+          "percent": 49.5
+        },
+        {
+          "label": "Cloud",
+          "count": 90,
+          "percent": 30.1
+        }
+      ],
+      "totalCount": 299
+    }
+  ]
+}
